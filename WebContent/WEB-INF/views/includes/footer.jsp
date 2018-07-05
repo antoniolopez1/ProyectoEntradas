@@ -1,3 +1,5 @@
+<%@taglib uri="http://www.springframework.org/tags" prefix="spring" %>
+<spring:url value="/resources" var="urlPublic"></spring:url>
 <!--footer start -->
 <footer>
     <div class="container">

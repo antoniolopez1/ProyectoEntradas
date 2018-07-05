@@ -1,4 +1,5 @@
-
+<%@taglib uri="http://www.springframework.org/tags" prefix="spring" %>
+<spring:url value="/resources" var="urlPublic"></spring:url>
 <!--header start here -->
 <header class="header navbar fixed-top navbar-expand-md">
     <div class="container">
@@ -11,19 +12,19 @@
         <div class="collapse navbar-collapse flex-sm-row-reverse" id="headernav">
             <ul class=" nav navbar-nav menu">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
+                    <a class="nav-link active" href="#">Inicio</a>
                 </li>
-                <li class="nav-item">
+                <!--  li class="nav-item">
                     <a class="nav-link " href="#">Speakers</a>
+                </li>-->
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Eventos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="#">Events</a>
+                    <a class="nav-link " href="#">Noticias</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="#">News</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="#">Contact</a>
+                    <a class="nav-link " href="#">Registrate o inicia sesion</a>
                 </li>
                 <li class="search_btn">
                     <a  href="#">
