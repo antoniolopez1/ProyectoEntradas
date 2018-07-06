@@ -24,7 +24,7 @@
                     <a class="nav-link " href="#">Noticias</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="#">Registrate o inicia sesion</a>
+                    <a class="nav-link " href="#">Registrate o Inicia Sesion</a>
                 </li>
                 <li class="search_btn">
                     <a  href="#">
