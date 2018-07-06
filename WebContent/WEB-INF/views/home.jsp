@@ -440,7 +440,7 @@
                 <tr>
                     <th>
                         <i class="ion-ios-calendar-outline"></i>
-                        <span>next events calendar</span>
+                        <span>proximos eventos</span>
                     </th>
                     <th></th>
                     <th></th>
