@@ -55,7 +55,7 @@
                     <i class="ion-ios-calendar-outline"></i>
                     <div class="content">
                         <h5 class="box_title">
-                            DATE
+                            Fecha
                         </h5>
                         <p>
                             12-14 february 2018
@@ -69,7 +69,7 @@
                     <i class="ion-ios-location-outline"></i>
                     <div class="content">
                         <h5 class="box_title">
-                            location
+                            Lugar
                         </h5>
                         <p>
                             Los Angeles, CA.
@@ -118,7 +118,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-md-10">
-                <h4 class="mb30 text-center color-light">Counter until the big event</h4>
+                <h4 class="mb30 text-center color-light">Cuenta regresiva a este evento</h4>
                 <div class="countdown"></div>
             </div>
         </div>
@@ -132,7 +132,7 @@
     <div class="container">
         <div class="section_title">
             <h3 class="title">
-                About the event
+                Acerca del evento
             </h3>
         </div>
         <div class="row justify-content-center">
