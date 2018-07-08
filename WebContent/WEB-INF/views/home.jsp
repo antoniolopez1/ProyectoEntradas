@@ -83,11 +83,11 @@
                     <i class="ion-ios-person-outline"></i>
                     <div class="content">
                         <h5 class="box_title">
-                            speakers
+                            Artista
                         </h5>
                         <p>
-                            Natalie James
-                            + guests
+                            Fito Páez
+                            
                         </p>
                     </div>
                 </div>
@@ -98,10 +98,10 @@
                     <i class="ion-ios-pricetag-outline"></i>
                     <div class="content">
                         <h5 class="box_title">
-                            tikets
+                            Tickets
                         </h5>
                         <p>
-                            $65.000 early bird
+                            65.000gs
                         </p>
                     </div>
                 </div>
@@ -138,7 +138,7 @@
         <div class="row justify-content-center">
             <div class="col-12 col-md-6">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing eli. Integer iaculis in lacus a sollicitudin. Ut hendrerit hendrerit nisl a accumsan. Pellentesque convallis consectetur tortor id placerat. Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat ligula euismod.
+                    El artista argentino estará deleitándonos con los clásicos temas como Mariposa Tecnicolor en la seccional colorada de la Perla del Sur.
                 </p>
             </div>
             <div class="col-12 col-md-6">

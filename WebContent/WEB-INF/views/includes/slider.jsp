@@ -8,14 +8,14 @@
                     <div class="container">
                         <div class="slider-content-center">
                             <h2 class="cover-title">
-                                Prepare yourself for the
+                                Preparen sus sentidos para este 
                             </h2>
-                            <strong class="cover-xl-text">conference</strong>
+                            <strong class="cover-xl-text">MEGA CONCIERTO</strong>
                             <p class="cover-date">
-                                12-14 February 2018  - Los Angeles, CA.
+                                12-14 febrero 2019  - Encarnacion, PY.
                             </p>
                             <a href="#" class=" btn btn-primary btn-rounded" >
-                                Compra tus tickes
+                                Comprá tus tickets
                             </a>
                         </div>
                     </div>
@@ -28,14 +28,14 @@
                     <div class="container">
                         <div class="slider-content-left">
                             <h2 class="cover-title">
-                                Prepare yourself for the
+                                Prepara tus papilas 
                             </h2>
-                            <strong class="cover-xl-text">conference</strong>
+                            <strong class="cover-xl-text">Festival del takuare'e</strong>
                             <p class="cover-date">
-                                12-14 February 2018  - Los Angeles, CA.
+                                22 septiembre 2019  - Encarnación, PY.
                             </p>
                             <a href="#" class=" btn btn-primary btn-rounded" >
-                                Buy Tickets Now
+                                Consigue tus tickets!
                             </a>
                         </div>
                     </div>
@@ -48,14 +48,14 @@
                     <div class="container">
                         <div class="slider-content-center">
                             <h2 class="cover-title">
-                                Prepare yourself for the
+                                ¿Están preparados?
                             </h2>
-                            <strong class="cover-xl-text">conference</strong>
+                            <strong class="cover-xl-text">Cesar Millan</strong>
                             <p class="cover-date">
-                                12-14 February 2018  - Los Angeles, CA.
+                                15 Septiembre 2018 - Encarnación, PY.
                             </p>
                             <a href="#" class=" btn btn-primary btn-rounded" >
-                                Buy Tickets Now
+                                Trae a tu mascota!
                             </a>
                         </div>
                     </div>
