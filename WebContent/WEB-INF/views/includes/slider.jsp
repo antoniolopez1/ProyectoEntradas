@@ -1,4 +1,4 @@
-<%@taglib uri="http://www.springframework.org/tags" prefix="spring" %>
+﻿<%@taglib uri="http://www.springframework.org/tags" prefix="spring" %>
 <spring:url value="/resources" var="urlPublic"></spring:url>
 <section id="home" class="home-cover">
     <div class="cover_slider owl-carousel owl-theme">
