@@ -11,14 +11,11 @@ private String ciudad;
 private String pais;
 private Date fecha_nacimiento;
 private int numero_documento;
+private String tarjeta;
 private String telefono;
-@Override
-public String toString() {
-	return "Cliente [usuario_id=" + usuario_id + ", apellido=" + apellido + ", nombre=" + nombre + ", direccion="
-			+ direccion + ", ciudad=" + ciudad + ", pais=" + pais + ", fecha_nacimiento=" + fecha_nacimiento
-			+ ", numero_documento=" + numero_documento + ", telefono=" + telefono + ", correo=" + correo
-			+ ", nombre_usuario=" + nombre_usuario + ", contrasena=" + contrasena + "]";
-}
+private String correo;
+private String nombre_usuario;
+private String contrasena;
 public String getUsuario_id() {
 	return usuario_id;
 }
@@ -67,6 +64,12 @@ public int getNumero_documento() {
 public void setNumero_documento(int numero_documento) {
 	this.numero_documento = numero_documento;
 }
+public String getTarjeta() {
+	return tarjeta;
+}
+public void setTarjeta(String tarjeta) {
+	this.tarjeta = tarjeta;
+}
 public String getTelefono() {
 	return telefono;
 }
@@ -91,8 +94,13 @@ public String getContrasena() {
 public void setContrasena(String contrasena) {
 	this.contrasena = contrasena;
 }
-private String correo;
-private String nombre_usuario;
-private String contrasena;
+@Override
+public String toString() {
+	return "Cliente [usuario_id=" + usuario_id + ", apellido=" + apellido + ", nombre=" + nombre + ", direccion="
+			+ direccion + ", ciudad=" + ciudad + ", pais=" + pais + ", fecha_nacimiento=" + fecha_nacimiento
+			+ ", numero_documento=" + numero_documento + ", tarjeta=" + tarjeta + ", telefono=" + telefono + ", correo="
+			+ correo + ", nombre_usuario=" + nombre_usuario + ", contrasena=" + contrasena + "]";
+}
+
 
 }
