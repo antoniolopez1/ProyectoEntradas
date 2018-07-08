@@ -477,7 +477,7 @@
                     </td>
                     <td class="event_date">
                         18
-                        <span>February</span>
+                        <span>Febrero</span>
                     </td>
                     <td>
                         <div class="event_place">
