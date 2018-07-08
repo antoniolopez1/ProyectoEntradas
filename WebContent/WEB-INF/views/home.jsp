@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring" %>
 
 
@@ -7,10 +6,9 @@
 <html lang="es">
 <head>
     <!-- ========== Meta Tags ========== -->
-    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <meta charset="utf-8">
-<title>Entradas</title>
-<spring:url value="/resources" var="urlPublic"></spring:url>
+    <meta http-equiv="Content-Type" content="text/html charset=utf-8"/>
+    <title>Entradas</title>
+    <spring:url value="/resources" var="urlPublic"></spring:url>
     <meta name="description" content="Evento -Event Html Template">
     <meta name="keywords" content="Evento , Event , Html, Template">
     <meta name="author" content="ColorLib">
