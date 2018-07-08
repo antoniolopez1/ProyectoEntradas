@@ -16,7 +16,7 @@
     <meta name="author" content="ColorLib">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- ========== Title ========== -->
-    <title> Evenc</title>
+    <title> EvEnc</title>
     <!-- ========== Favicon Ico ========== -->
     <!--<link rel="icon" href="fav.ico">-->
     <!-- ========== STYLESHEETS ========== -->
@@ -58,7 +58,7 @@
                             Fecha
                         </h5>
                         <p>
-                            12-14 february 2018
+                            12-14 noviembre 2018
                         </p>
                     </div>
                 </div>
@@ -72,7 +72,7 @@
                             Lugar
                         </h5>
                         <p>
-                            Los Angeles, CA.
+                            Encarnación, PY.
                         </p>
                     </div>
                 </div>
