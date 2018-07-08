@@ -4,13 +4,13 @@
 
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <!-- ========== Meta Tags ========== -->
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <meta charset="utf-8">
 <title>Entradas</title>
 <spring:url value="/resources" var="urlPublic"></spring:url>
-    <meta charset="UTF-8">
     <meta name="description" content="Evento -Event Html Template">
     <meta name="keywords" content="Evento , Event , Html, Template">
     <meta name="author" content="ColorLib">

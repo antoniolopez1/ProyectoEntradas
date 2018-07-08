@@ -10,7 +10,7 @@
                             <h2 class="cover-title">
                                 Preparen sus sentidos para este 
                             </h2>
-                            <strong class="cover-xl-text">MEGA CONCIERTO</strong>
+                            <strong class="cover-xl-text">MEGA <br>CONCIERTO</strong>
                             <p class="cover-date">
                                 12-14 febrero 2019  - Encarnacion, PY.
                             </p>
@@ -30,7 +30,7 @@
                             <h2 class="cover-title">
                                 Prepara tus papilas 
                             </h2>
-                            <strong class="cover-xl-text">Festival del takuare'e</strong>
+                            <strong class="cover-xl-text">Festival del <br>takuare'e</strong>
                             <p class="cover-date">
                                 22 septiembre 2019  - Encarnación, PY.
                             </p>
