@@ -101,7 +101,7 @@
                             tikets
                         </h5>
                         <p>
-                            $65 early bird
+                            $65.000 early bird
                         </p>
                     </div>
                 </div>
