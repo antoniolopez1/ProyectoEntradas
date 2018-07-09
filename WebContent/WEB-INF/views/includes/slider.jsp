@@ -28,7 +28,7 @@
                     <div class="container">
                         <div class="slider-content-left">
                             <h2 class="cover-title">
-                                Prepara tus papilas 
+                                No te lo puedes perder
                             </h2>
                             <strong class="cover-xl-text">Festival del <br>takuare'e</strong>
                             <p class="cover-date">
@@ -48,14 +48,14 @@
                     <div class="container">
                         <div class="slider-content-center">
                             <h2 class="cover-title">
-                                ¿Están preparados?
+                                Trae a tu mascota!
                             </h2>
                             <strong class="cover-xl-text">Cesar Millan</strong>
                             <p class="cover-date">
                                 15 Septiembre 2018 - Encarnación, PY.
                             </p>
                             <a href="#" class=" btn btn-primary btn-rounded" >
-                                Trae a tu mascota!
+                                Consigue tus tickets!
                             </a>
                         </div>
                     </div>
