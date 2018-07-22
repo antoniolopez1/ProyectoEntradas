@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring" %>
-
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -447,6 +448,30 @@
                 </tr>
                 </thead>
                 <tbody>
+                <c:forEach items="${eventos}" var="evento">
+                <tr>
+                    <td>
+                        <img src="${urlPublic}/img/cleander/${evento.imagen}" alt="event">
+                    </td>
+                    <td class="event_date">
+                        <fmt:formatDate value="${evento.fecha}" pattern="dd"/>
+                        <span><fmt:formatDate value="${evento.fecha}" pattern="MMMM"/></span>
+                    </td>
+                    <td>
+                        <div class="event_place">
+                            <h5>${evento.nombre}</h5>
+                            <h6>Lugar: ${evento.lugar}</h6>
+                            <p>Speaker: Daniel Hill</p>
+                        </div>
+                    </td>
+                    <td>
+                        <a href="#" class="btn btn-primary btn-rounded">Más información</a>
+                    </td>
+                    <td class="buy_link">
+                        <a href="#">comprar ahora</a>
+                    </td>
+                </tr>
+                </c:forEach>
                 <tr>
                     <td>
                         <img src="${urlPublic}/img/cleander/c1.png" alt="event">
