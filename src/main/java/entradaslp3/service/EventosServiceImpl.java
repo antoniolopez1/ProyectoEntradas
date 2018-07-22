@@ -15,7 +15,7 @@ public class EventosServiceImpl implements IEventosService{
 
 		SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy");
 		try {
-			lista = new LinkedList<>();
+			lista = new LinkedList<Evento>();
 			Evento evento1 = new Evento();
 			evento1.setEvento_id(1);
 			evento1.setNombre("Homenaje a Agustín Pío Barrios");

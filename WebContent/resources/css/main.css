@@ -1647,7 +1647,7 @@ header .logo {
 }
 header .logo img {
   float: left;
-  max-width: 160px;
+  max-width: 200px;
   margin-right: 3px;
 }
 header ul.menu li a.nav-link {
