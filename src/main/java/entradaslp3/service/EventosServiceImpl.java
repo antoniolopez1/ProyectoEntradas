@@ -22,8 +22,14 @@ public class EventosServiceImpl implements IEventosService{
 			evento1.setImagen("agustinpiobarrios.jpg");
 			evento1.setLugar("Club Pettirosi");
 			evento1.setFecha(formatter.parse("20-09-2018"));
-			
+			Evento evento2 = new Evento();
+			evento2.setEvento_id(1);
+			evento2.setNombre("Conciero de Fito Paez");
+			evento2.setImagen("c1.png");
+			evento2.setLugar("Costanera Padre Bolik");
+			evento2.setFecha(formatter.parse("10-10-2018"));
 			lista.add(evento1);
+			lista.add(evento2);
 			
 		} 
 		catch(ParseException err) {
