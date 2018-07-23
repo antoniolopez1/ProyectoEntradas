@@ -33,5 +33,8 @@ public class HomeController {
 		model.addAttribute("eventos", eventos);
 		return "home";
 	}
-	
+	@RequestMapping(value = "/registro", method = RequestMethod.GET)
+	public String goRegistro() {
+		return "registro";
+	}
 }

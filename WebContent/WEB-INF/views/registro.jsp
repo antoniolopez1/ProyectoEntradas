@@ -1,12 +1,227 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+    <%@taglib uri="http://www.springframework.org/tags" prefix="spring" %>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Evento -Event Html Template">
+    <meta name="keywords" content="Evento , Event , Html, Template">
+    <meta name="author" content="ColorLib">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- ========== Title ========== -->
+    <spring:url value="/resources" var="urlPublic"></spring:url>
+    <spring:url value="/" var="urlRoot"></spring:url>
+    <title> Evento - Event Html Template</title>
+    <!-- ========== Favicon Ico ========== -->
+    <!--<link rel="icon" href="fav.ico">-->
+    <!-- ========== STYLESHEETS ========== -->
+    <!-- Bootstrap CSS -->
+    <link href="${urlPublic}/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fonts Icon CSS -->
+    <link href="${urlPublic}/css/font-awesome.min.css" rel="stylesheet">
+    <link href="${urlPublic}/css/et-line.css" rel="stylesheet">
+    <link href="${urlPublic}/css/ionicons.min.css" rel="stylesheet">
+    <!-- Carousel CSS -->
+    <link href="${urlPublic}/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="${urlPublic}/css/owl.theme.default.min.css" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <!-- Custom styles for this template -->
+    <link href="${urlPublic}/css/main.css" rel="stylesheet">
 </head>
 <body>
+<div class="loader">
+    <div class="loader-outter"></div>
+    <div class="loader-inner"></div>
+</div>
 
+<!--header start here -->
+<jsp:include page="includes/menu.jsp"></jsp:include>
+<!--header end here-->
+
+<!--page title section-->
+<section class="inner_cover parallax-window" data-parallax="scroll" data-image-src="${urlPublic}/img/bg/bg-img.png">
+    <div class="overlay_dark"></div>
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-12">
+                <div class="inner_cover_content">
+                    <h3>
+                        Conectate!
+                    </h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="breadcrumbs">
+            <ul>
+                <li><a href="${urlRoot}">Home</a>  | </li>
+                <li><span>Contact</span></li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!--page title section end-->
+
+
+<!--contact section -->
+<section class="pt100 pb100">
+    <div class="container">
+        <img src="${urlPublic}/img/logo.png" alt="evento" style="background-color: black;">
+        <div class="row justify-content-center mt100">
+            <div class="col-md-6 col-12">
+                <div class="contact_info">
+                    <h5>
+                        Ya probaste lo nuevo.
+                    </h5>
+                    <p>
+                        Registrate para poder comprar las Entradas de tus eventos favoritos y más esperados.
+                    </p>
+                    <ul class="social_list">
+                        <li>
+                            <a href="#"><i class="ion-social-pinterest"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="ion-social-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="ion-social-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="ion-social-dribbble"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="ion-social-instagram"></i></a>
+                        </li>
+                    </ul>
+
+                    <ul class="icon_list pt50">
+                        <li>
+                            <i class="ion-location"></i>
+                            <span>
+                                        Rosia Road , No234/56<br/>
+                                        Gibraltar , UK
+                            </span>
+                        </li>
+                        <li>
+                            <i class="ion-ios-telephone"></i>
+                            <span>
+                                       +5463 834 53 2245
+                                </span>
+                        </li>
+                        <li>
+                            <i class="ion-email-unread"></i>
+                            <span>
+                                    contact@evento.com
+                                </span>
+                        </li>
+
+                        <li>
+                            <i class="ion-planet"></i>
+                            <span>
+                                    www.colorlib.com
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+            	 <div class="contact_form">
+            	 	 <div class="form-group">
+                        <label class="control-label">Iniciar Sesión</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="email">
+                    </div>
+                    
+                    <div class="form-group text-right">
+                        <button class="btn btn-rounded btn-primary">send massage</button>
+                    </div>
+                </div>
+                <div class="contact_form">
+                	<div class="form-group">
+                        <label class="control-label">Registrarse</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="email">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" cols="4" rows="4" placeholder="massage"></textarea>
+                    </div>
+                    <div class="form-group text-right">
+                        <button class="btn btn-rounded btn-primary">send massage</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt70">
+                <!--map -->
+                <div id="map" data-lon="24.036176" data-lat=" 57.039986" class="map"></div>
+                <!--map end-->
+            </div>
+        </div>
+
+    </div>
+</section>
+<!--contact section end -->
+
+
+
+<!--get tickets section -->
+<section class="bg-img pt100 pb100" style="background-image: url('${urlPublic}/img/bg/tickets.png');">
+    <div class="container">
+        <div class="section_title mb30">
+            <h3 class="title color-light">
+                GEt your tikets
+            </h3>
+        </div>
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-9 text-md-left text-center color-light">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec gravida tempus. Integer iaculis in aazzzCurabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat ligula euismod.
+            </div>
+            <div class="col-md-3 text-md-right text-center">
+                <a href="#" class="btn btn-primary btn-rounded mt30">buy now</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--get tickets section end-->
+
+<!--footer start -->
+<jsp:include page="includes/footer.jsp"></jsp:include>
+<!--footer end -->
+
+<!-- jquery -->
+<script src="${urlPublic}/js/jquery.min.js"></script>
+<!-- bootstrap -->
+<script src="${urlPublic}/js/popper.js"></script>
+<script src="${urlPublic}/js/bootstrap.min.js"></script>
+<script src="${urlPublic}/js/waypoints.min.js"></script>
+<!--slick carousel -->
+<script src="${urlPublic}/js/owl.carousel.min.js"></script>
+<!--parallax -->
+<script src="${urlPublic}/js/parallax.min.js"></script>
+<!--Counter up -->
+<script src="${urlPublic}/js/jquery.counterup.min.js"></script>
+<!--Counter down -->
+<script src="${urlPublic}/js/jquery.countdown.min.js"></script>
+<!-- WOW JS -->
+<script src="${urlPublic}/js/wow.min.js"></script>
+<!--map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuahgsm_qfH1F3iywCKzZNMdgsCfnjuUA"></script>
+<!-- Custom js -->
+<script src="${urlPublic}/js/main.js"></script>
 </body>
 </html>

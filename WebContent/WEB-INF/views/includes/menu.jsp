@@ -1,5 +1,9 @@
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring" %>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+
 <spring:url value="/resources" var="urlPublic"></spring:url>
+<spring:url value="/" var="urlRoot"></spring:url>
 <!--header start here -->
 <header class="header navbar fixed-top navbar-expand-md">
     <div class="container">
@@ -12,7 +16,7 @@
         <div class="collapse navbar-collapse flex-sm-row-reverse" id="headernav">
             <ul class=" nav navbar-nav menu">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Inicio</a>
+                    <a class="nav-link active" href="${urlRoot}">Inicio</a>
                 </li>
                 <!--  li class="nav-item">
                     <a class="nav-link " href="#">Speakers</a>
@@ -24,7 +28,7 @@
                     <a class="nav-link " href="#">Noticias</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="#">Registrate o Inicia Sesion</a>
+                    <a class="nav-link " href="${urlRoot}registro">Registrate o Inicia Sesion</a>
                 </li>
                 <li class="search_btn">
                     <a  href="#">
