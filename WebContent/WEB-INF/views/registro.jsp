@@ -15,7 +15,7 @@
     <!-- ========== Title ========== -->
     <spring:url value="/resources" var="urlPublic"></spring:url>
     <spring:url value="/" var="urlRoot"></spring:url>
-    <title> Evento - Event Html Template</title>
+    <title>Registro</title>
     <!-- ========== Favicon Ico ========== -->
     <!--<link rel="icon" href="fav.ico">-->
     <!-- ========== STYLESHEETS ========== -->
@@ -59,8 +59,8 @@
 
         <div class="breadcrumbs">
             <ul>
-                <li><a href="${urlRoot}">Home</a>  | </li>
-                <li><span>Contact</span></li>
+                <li><a href="${urlRoot}">Inicio</a>  | </li>
+                <li><span>Contacto</span></li>
             </ul>
         </div>
     </div>
@@ -71,15 +71,15 @@
 <!--contact section -->
 <section class="pt100 pb100">
     <div class="container">
-        <img src="${urlPublic}/img/logo.png" alt="evento" style="background-color: black;">
+        <img src="${urlPublic}/img/logo.png" alt="evento" style="background-color: white;">
         <div class="row justify-content-center mt100">
             <div class="col-md-6 col-12">
                 <div class="contact_info">
                     <h5>
-                        Ya probaste lo nuevo.
+                        ¿Ya probaste lo nuevo?
                     </h5>
                     <p>
-                        Registrate para poder comprar las Entradas de tus eventos favoritos y más esperados.
+                        Registrate para poder comprar las entradas de tus eventos favoritos y más esperados.
                     </p>
                     <ul class="social_list">
                         <li>
@@ -103,36 +103,31 @@
                         <li>
                             <i class="ion-location"></i>
                             <span>
-                                        Rosia Road , No234/56<br/>
-                                        Gibraltar , UK
+                                        Avenida Siempreviva 742<br/>
+                                        Encarnación, PY
                             </span>
                         </li>
                         <li>
                             <i class="ion-ios-telephone"></i>
                             <span>
-                                       +5463 834 53 2245
+                                       +595985 253 989
                                 </span>
                         </li>
                         <li>
                             <i class="ion-email-unread"></i>
                             <span>
-                                    contact@evento.com
+                                    hola@evenc.com
                                 </span>
                         </li>
 
-                        <li>
-                            <i class="ion-planet"></i>
-                            <span>
-                                    www.colorlib.com
-                            </span>
-                        </li>
+                       
                     </ul>
                 </div>
             </div>
             <div class="col-md-6 col-12">
             	 <div class="contact_form">
             	 	 <div class="form-group">
-                        <label class="control-label">Iniciar Sesión</label>
+                        <label class="control-label">Iniciar sesión</label>
                     </div>
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="name">
@@ -142,7 +137,7 @@
                     </div>
                     
                     <div class="form-group text-right">
-                        <button class="btn btn-rounded btn-primary">send massage</button>
+                        <button class="btn btn-rounded btn-primary">Acceder</button>
                     </div>
                 </div>
                 <div class="contact_form">
@@ -162,13 +157,13 @@
                         <textarea class="form-control" cols="4" rows="4" placeholder="massage"></textarea>
                     </div>
                     <div class="form-group text-right">
-                        <button class="btn btn-rounded btn-primary">send massage</button>
+                        <button class="btn btn-rounded btn-primary">Crear usuario</button>
                     </div>
                 </div>
             </div>
             <div class="col-12 mt70">
                 <!--map -->
-                <div id="map" data-lon="24.036176" data-lat=" 57.039986" class="map"></div>
+                <div id="map" data-lon="-27.337958" data-lat="-55.860930" class="map"></div>
                 <!--map end-->
             </div>
         </div>
@@ -184,15 +179,15 @@
     <div class="container">
         <div class="section_title mb30">
             <h3 class="title color-light">
-                GEt your tikets
+                Consigue tus entradas 
             </h3>
         </div>
         <div class="row justify-content-center align-items-center">
             <div class="col-md-9 text-md-left text-center color-light">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec gravida tempus. Integer iaculis in aazzzCurabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat ligula euismod.
+                EvEnc te ayuda a que asistas  a los mejores eventos del Sur del país y al mejor precio
             </div>
             <div class="col-md-3 text-md-right text-center">
-                <a href="#" class="btn btn-primary btn-rounded mt30">buy now</a>
+                
             </div>
         </div>
     </div>
