@@ -71,7 +71,7 @@
 <!--contact section -->
 <section class="pt100 pb100">
     <div class="container">
-        <img src="${urlPublic}/img/logo.png" alt="evento" style="background-color: white;">
+        <img src="${urlPublic}/img/logo.png" alt="evento" style="background-color: black;">
         <div class="row justify-content-center mt100">
             <div class="col-md-6 col-12">
                 <div class="contact_info">
