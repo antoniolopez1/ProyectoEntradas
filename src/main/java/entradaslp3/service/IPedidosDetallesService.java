@@ -2,7 +2,6 @@ package entradaslp3.service;
 
 import java.util.List;
 
-import entradas.model.Carrito;
 import entradas.model.Pedido_Detalle;
 
 public interface IPedidosDetallesService {
