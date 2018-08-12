@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 
 import entradas.model.Evento;
 @Service
-public class EventosServiceImpl implements IEventosService{
+public class EventosServiceImpl implements IEventosImplService{
 	private List<Evento> lista = null;
 	public EventosServiceImpl() {
 
@@ -18,7 +18,7 @@ public class EventosServiceImpl implements IEventosService{
 			lista = new LinkedList<Evento>();
 			Evento evento1 = new Evento();
 			evento1.setEvento_id(1);
-			evento1.setNombre("Homenaje a Agustín Pío Barrios");
+			evento1.setNombre("Homenaje a Agustï¿½n Pï¿½o Barrios");
 			evento1.setImagen("agustinpiobarrios.jpg");
 			evento1.setLugar("Club Pettirosi");
 			evento1.setFecha(formatter.parse("20-09-2018"));
